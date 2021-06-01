@@ -1,15 +1,28 @@
 import React from 'react';
-import Modal from './Modal';
-import ButtonModal from './ButtonModal';
+import Produto from './Produto';
 
 const App = () => {
-  const [modal, setModal] = React.useState(false);
+  const [dados, setDados] = React.useState(null);
+  const [carregando, setCarregando] = React.useState(null);
+
+  async function handleClick(event) {
+    setCarregando(true);
+    const response = await fetch(
+      `https://ranekapi.origamid.dev/json/api/produto/${event.target.innerText}`,
+    );
+    const json = await response.json();
+    setDados(json);
+    setCarregando(false);
+  }
 
   return (
-    <div>
-      <Modal modal={modal} setModal={setModal} />
-      <ButtonModal setModal={setModal} />
-    </div>
+    <>
+      <button onClick={handleClick}>smartphone</button>
+      <button onClick={handleClick}>tablet</button>
+      <button onClick={handleClick}>notebook</button>
+      {carregando && <p>Carregando...</p>}
+      {!carregando && dados && <Produto dados={dados} />}
+    </>
   );
 };
 
