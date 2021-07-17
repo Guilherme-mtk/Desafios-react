@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/exercicios-react/static/css/main.09a0db7b.chunk.css",
+    "main.js": "/exercicios-react/static/js/main.0d747b42.chunk.js",
+    "main.js.map": "/exercicios-react/static/js/main.0d747b42.chunk.js.map",
+    "runtime-main.js": "/exercicios-react/static/js/runtime-main.8743443e.js",
+    "runtime-main.js.map": "/exercicios-react/static/js/runtime-main.8743443e.js.map",
+    "static/js/2.1f15357a.chunk.js": "/exercicios-react/static/js/2.1f15357a.chunk.js",
+    "static/js/2.1f15357a.chunk.js.map": "/exercicios-react/static/js/2.1f15357a.chunk.js.map",
+    "index.html": "/exercicios-react/index.html",
+    "static/css/main.09a0db7b.chunk.css.map": "/exercicios-react/static/css/main.09a0db7b.chunk.css.map",
+    "static/js/2.1f15357a.chunk.js.LICENSE.txt": "/exercicios-react/static/js/2.1f15357a.chunk.js.LICENSE.txt",
+    "static/media/contato.1bd9bf2d.jpg": "/exercicios-react/static/media/contato.1bd9bf2d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8743443e.js",
+    "static/js/2.1f15357a.chunk.js",
+    "static/css/main.09a0db7b.chunk.css",
+    "static/js/main.0d747b42.chunk.js"
+  ]
+}
