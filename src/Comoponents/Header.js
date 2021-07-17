@@ -22,7 +22,7 @@ const Header = () => {
             className={styles.link}
             to="contato"
           >
-            Contatos
+            Contato
           </NavLink>
         </li>
       </ul>
